@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    grid-gap:10px;
+}
+
+.one{
+    background-color: crimson;
+}
+
+.two{
+background-image: url('/The-Bizarre-and-True-Story-of-Mike-Tyson-and-his-Pet-Pigeons-two-294x300.jpg'); 
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.three{
+    background-color: darkorange;
+}
+
